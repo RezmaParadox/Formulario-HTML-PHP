@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Desarrollo web avanzado</title>
+		<link rel="stylesheet" href="css/index.css">
+
+		<script src="https://kit.fontawesome.com/7100cb3455.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		
+		<script src="js/index.js"></script>
+		<script src="js/index_ui.js"></script>
+		<script src="js/ajax.js"></script>
+
+		<script src="js/particles.min.js"></script>
+		<script src="js/app.json"></script>
+	</head>
+	<body>
+		<div class="principal">
+			<form action="php/listener.php" method="get">
+				<h1>Formulario</h1>
+				<div class="contenedor">
+					
+					<div class="F0">
+						<input id="id" type="hidden" />
+
+						<div class="input-container">
+							<i class="fa-solid fa-user"></i>
+							<input id="nombre" class="largo" type="text" placeholder="Introduce un nombre" value="Gibran">
+						</div>
+
+						<div class="input-container">
+							<i class="fa-solid fa-globe"></i>
+							<input id="nacionalidad" class="largo" type="text" placeholder="Introduce una nacionalidad" value="Mexicano">
+						</div>
+
+						<div class="input-container">
+							<i class="fa-sharp fa-solid fa-calendar"></i>
+							<input id="edad" class="largo" type="number" placeholder="Introduce una edad" value="23">
+						</div>
+					</div>
+
+					<div class="F1">
+						<input id="enviar" class="button1" type="submit" value="Agregar">
+						<input id="bajas" class="button2" type="submit" value="Eliminar">
+						<input id="cambios" class="button3" type="submit" value="Modificar">
+					</div>
+				</div>
+				<div class="F2">	
+					<input id="consultaGeneral" class="button" type="submit" value="Consulta general">
+					<input id="consultaNombre" class="button" type="submit" value="Consulta nombre">
+					<input id="anterior" class="button" type="submit" value="Anterior">
+					<input id="siguiente" class="button" type="submit" value="Siguiente">
+				</div>
+
+				<textarea name="" id="contenedor" cols="30" rows="10"> Resultados</textarea>
+				<select id="select" >
+				</select>
+			</form>
+		</div>
+
+		<div class="container">
+			<div class="bubbles">
+				<span style="--i:11;"></span>
+				<span style="--i:31;"></span>
+				<span style="--i:41;"></span>
+				<span style="--i:21;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:14;"></span>
+				<span style="--i:16;"></span>
+				<span style="--i:19;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:31;"></span>
+				<span style="--i:41;"></span>
+				<span style="--i:21;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:14;"></span>
+				<span style="--i:16;"></span>
+				<span style="--i:19;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:31;"></span>
+				<span style="--i:41;"></span>
+				<span style="--i:21;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:14;"></span>
+				<span style="--i:16;"></span>
+				<span style="--i:19;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:31;"></span>
+				<span style="--i:41;"></span>
+				<span style="--i:21;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:14;"></span>
+				<span style="--i:16;"></span>
+				<span style="--i:19;"></span>
+				<span style="--i:41;"></span>
+				<span style="--i:21;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:14;"></span>
+				<span style="--i:16;"></span>
+				<span style="--i:19;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:31;"></span>
+				<span style="--i:41;"></span>
+				<span style="--i:21;"></span>
+				<span style="--i:11;"></span>
+				<span style="--i:14;"></span>
+
+			</div>
+		</div>
+	</body>
+</html>
